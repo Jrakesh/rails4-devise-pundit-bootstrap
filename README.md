@@ -1,12 +1,12 @@
 <h1>rails4-devise-pundit-bootstrap</h1>
 <a href="https://codeclimate.com/github/Jrakesh/rails4-devise-pundit-bootstrap"><img src="https://codeclimate.com/github/Jrakesh/rails4-devise-pundit-bootstrap.png" /></a>
 
-<p>This is a <strong>Rails v4.0.2</strong> starter app and can be used as a boilerplate for your own app. 
+<p>This is a <strong>Rails v4.0.2</strong> starter app and can be used as a boilerplate for your own app.</p>
 <p>Out-of-the-box features:</p>
 <ol>
 	<li>Devise + Pundit for authorization and role based authentication.</li>
-	<li>Bootstrap-3 integration</li>
-	<li>Dynamic role creation functionality.</li>
+	<li>Bootstrap-3 integration.</li>
+	<li>Dynamic role creation.</li>
 	<li>HAML used as templating engine.</li>
 </ol>
 
