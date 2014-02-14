@@ -11,13 +11,11 @@ gem 'jbuilder', '~> 1.2'
 gem 'bootstrap-sass', '>= 3.0.0.0'
 gem 'devise'
 gem 'figaro'
-gem 'haml-rails'
 gem 'simple_form'
 gem 'pundit'
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_19, :mri_20, :rbx]
-  gem 'html2haml'
   gem 'quiet_assets'
   gem 'rails_layout'
   gem 'habtm_generator'
