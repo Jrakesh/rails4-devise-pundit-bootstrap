@@ -7,7 +7,6 @@
 	<li>Devise + Pundit for authorization and role based authentication.</li>
 	<li>Bootstrap-3 integration.</li>
 	<li>Dynamic role creation.</li>
-	<li>HAML used as templating engine.</li>
 </ol>
 
 <h3>Installation</h3>
