@@ -1,0 +1,15 @@
+<div class="form-horizontal">
+  <%= simple_form_for(@role) do |f| %>
+    <%= f.error_notification %>
+    <div class="form-group">
+      <div class="col-sm-offset-1 col-sm-10">
+        <%= f.input :name, input_html: {class: 'span5 form-control' } %>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-sm-offset-1 col-sm-10">
+        <%= f.button :submit, class: 'btn btn-primary' %>
+      </div>
+    </div>
+  <% end %>
+</div>

@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>
+      <%= content_for?(:title) ? yield(:title) : 'Rails4 Devise Pundit Bootstrap' %>
+    </title>
+    <meta content="<%= content_for?(:description) ? yield(:description) : 'Rails4 Devise Pundit Bootstrap' %>" name="description"/>
+    <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
+    <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+    <%= render 'layouts/navigation' %>
+  </body>
+  <main role="main">
+    <div class="container">
+      <%= render 'layouts/messages' %>
+      <%= yield %>
+    </div>
+  </main>
+</html>

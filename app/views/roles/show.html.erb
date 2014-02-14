@@ -1,0 +1,8 @@
+<h3>Role Name</h3>
+<p>
+  <%= @role.name.titleize if @role.name %>
+</p>
+<br/>
+<%= link_to 'Edit', edit_role_path(@role) %>
+|
+<%= link_to 'Back', roles_path %>
